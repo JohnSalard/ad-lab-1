@@ -10,3 +10,7 @@ jobs:
         with:
           node-version: '18'
       - run: node -v
+  deploy-to-dev:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo Deploy to stage dev
